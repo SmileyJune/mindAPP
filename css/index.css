@@ -1,0 +1,728 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clear{clear: both;}
+
+body,html{
+	width: 100%;
+	height: 100%;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* cover */
+.main .cover{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* display: none; */
+}
+
+.main .cover h3{
+	width: 100%;
+	font-weight: normal;
+	font-size: 17px;
+	color: #333;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.cover .coverCon .coverBg{
+	width: 90%;
+	background-size: cover;
+	margin: 70px auto 38px;
+	position: relative;
+}
+
+.cover .coverCon .coverBg .coverHead{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: url(../img/head.jpg) no-repeat center center;
+	background-size: cover;
+	margin: 20px auto 0px;
+	position: absolute;
+	top: -60px;
+	left: 40%;
+}
+
+.cover .coverCon .coverBg .coverHead img{
+	width: 100%;
+	height: 100%;
+}
+
+.cover .coverCon .coverBg .BgImg{
+	width: 100%;
+}
+
+.cover .coverCon .coverBg p{
+	line-height: 20px;
+	word-wrap: break-word;
+	text-align: center;
+	padding: 30px 20px 5px;
+    color: #333;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.cover .coverText{
+	width: 100%;
+	height: 45px;
+	position: relative;
+}
+
+.cover .coverText .iText{
+	width: 96px;
+	height: 45px;
+	position: absolute;
+	top: 0;
+	left: 15%;
+}
+
+.cover .coverText .iText img{
+	width: 100%;
+	height: 100%;
+}
+
+.cover .coverText .textElse{
+	width: 94px;
+	height: 45px;
+    position: absolute;
+    top: 0;
+    right: 15%;
+}
+
+.cover .coverText .textElse img{
+	width: 100%;
+	height: 100%;
+}
+
+.cover .logo{
+	width: 90px;
+	height: 20px;
+	margin: 20px auto 15px;
+}
+
+.cover .logo img{
+	width: 100%;
+	height: 100%;
+}
+
+/* home */
+.main .home{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: none;
+	overflow: hidden;
+}
+
+.home .restore{
+	width: 230px;
+	height: 80px;
+	margin-top: 10px
+}
+
+.home .restore img{
+	width: 100%;
+	height: 100%;
+}
+
+.home .trueMe{
+	width: 230px;
+	height: 80px;
+	position: absolute;
+	right: 0;
+}
+
+.home .trueMe img{
+	width: 100%;
+	height: 100%;
+}
+
+.home .boy{
+	width: 150px;
+	height: 105px;
+	margin: 110px auto 0px;
+}
+
+.home .boy img{
+	width: 100%;
+	height: 100%;
+}
+
+.home .test{
+	width: 200px;
+	height: 70px;
+	margin: 30px auto 0px;
+}
+
+.home .test img{
+	width: 100%;
+	height: 100%;
+}
+
+.home .poke{
+	width: 104px;
+	height: 65px;
+	margin: 20px auto 0px;
+}
+
+.home .poke img{
+	width: 100%;
+	height: 100%;
+}
+
+.home .logo{
+	width: 90px;
+	height: 20px;
+	margin: 30px auto 0px;
+}
+
+.home .logo img{
+	width: 100%;
+	height: 100%;
+}
+
+/* inletCon */
+
+.main .inletCon{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: none;
+	overflow: hidden;
+	position: relative;
+}
+
+.inletCon .yearCho{
+	width: 60%;
+	position: relative;
+	margin: 100px auto 0px;
+}
+
+.inletCon .yearCho .year{
+	width: 100px;
+	height: 20px; 
+}
+
+.inletCon .yearCho .year img{
+	width: 100%;
+	height: 100%;
+}
+
+.inletCon .yearCho .choose1{
+	width: 100px;
+	height: 30px;
+	border: 3px solid #333;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.inletCon .yearCho .choose1 img{
+	width: 90%;
+	height: 88%;
+	background-color: #fff;
+}
+
+.inletCon .starCho{
+	width: 60%;
+	position: relative; 
+	margin: 22px auto 0px;
+}
+
+.inletCon .starCho .star{
+	width: 100px;
+	height: 20px;
+}
+
+.inletCon .starCho .star img{
+	width: 100%;
+	height: 100%;
+}
+
+.inletCon .starCho .choose2{
+	width: 100px;
+	height: 30px;
+	border: 3px solid #333;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.inletCon .starCho .choose2 img{
+	width: 70%;
+	height: 90%;
+	background-color: #fff;
+}
+
+.inletCon .girl{
+	width: 190px;
+	height: 180px;
+	margin: 35px auto 0px;
+}
+
+.inletCon .girl img{
+	width: 100%;
+	height: 100%;
+}
+
+.inletCon .inlet{
+	width: 100%;
+	height: 65px;
+	position: relative;
+	margin-top: 30px;
+}
+
+.inletCon .inlet .boyIn{
+	width: 110px;
+	height: 73px;
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+
+.inletCon .inlet .boyIn img{
+	width: 100%;
+	height: 100%;
+}
+
+.inletCon .inlet .girlIn{
+	width: 110px;
+	height: 73px;
+	position: absolute;
+	top: 0;
+	right: 40px;
+}
+
+.inletCon .inlet .girlIn img{
+	width: 100%;
+	height: 100%;
+}
+
+.inletCon .logo{
+	width: 90px;
+	height: 20px;
+	margin: 30px auto;
+}
+
+.inletCon .logo img{
+	width: 100%;
+	height: 100%;
+}
+
+/* inletCon--pop */
+/* 年龄弹出框 */ 
+.popYear{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popYear .popBg{
+	width: 270px;
+	height: 130px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 220px auto 0px;
+	padding-top: 10px;
+}
+
+.popYear .popBg .popCase{
+	width: 230px;
+	height: 110px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background-color: #fff;
+	position: relative;
+	margin: 0 auto;
+}
+
+.popYear .popBg .popCase .yearLeft{
+	width: 90px;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+} 
+
+.popYear .popBg .popCase .yearLeft div{
+	width: 100%;
+	height: 20px;
+	margin: 7px 0px;
+}
+
+.popYear .popBg .popCase .yearLeft div img{
+	width: 100%;
+	height: 100%;
+}
+
+.popYear .popBg .popCase .yearRight{
+	width: 90px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+} 
+
+.popYear .popBg .popCase .yearRight div{
+	width: 100%;
+	height: 20px;
+	margin: 7px 0px;
+}
+
+.popYear .popBg .popCase .yearRight div img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 星座弹出框 */
+.popStar{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popStar .popBg1{
+	width: 270px;
+	height: 150px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 220px auto 0px;
+	padding-top: 10px;
+}
+
+.popStar .popBg1 .popCase1{
+	width: 230px;
+	height: 130px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background-color: #fff;
+	position: relative;
+	margin: 0 auto;
+}
+
+.popStar .popBg1 .popCase1 .yearLeft1{
+	width: 50px;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+} 
+
+.popStar .popBg1 .popCase1 .yearLeft1 div{
+	width: 100%;
+	height: 20px;
+	margin: 7px 0px;
+}
+
+.popStar .popBg1 .popCase1 .yearLeft1 div img{
+	width: 100%;
+	height: 100%;
+}
+
+.popStar .popBg1 .popCase1 .yearCenter{
+	width: 50px;
+	position: absolute;
+	top: 10px;
+	left: 90px;
+} 
+
+.popStar .popBg1 .popCase1 .yearCenter div{
+	width: 100%;
+	height: 20px;
+	margin: 7px 0px;
+}
+
+.popStar .popBg1 .popCase1 .yearCenter div img{
+	width: 100%;
+	height: 100%;
+}
+
+.popStar .popBg1 .popCase1 .yearRight1{
+	width: 50px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+} 
+
+.popStar .popBg1 .popCase1 .yearRight1 div{
+	width: 100%;
+	height: 20px;
+	margin: 7px 0px;
+}
+
+.popStar .popBg1 .popCase1 .yearRight1 div img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 测试题目页面 */
+.mian .question{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.question .questHead{
+	width: 50%;
+	height: 75px;
+	margin: 0 auto;
+}
+
+.question .questHead .Qleft{
+	width: 10px;
+	height: 75px;
+	background-color: #ffd33e;
+	border-left: 2px solid #333;
+	border-right: 2px solid #333;
+	float: left;
+}
+
+.question .questHead .logo{
+	width: 90px;
+	height: 20px;
+	float: left;
+	margin: 25px 0px 0px 35px;
+}
+
+.question .questHead .logo img{
+	width: 100%;
+	height: 100%;
+}
+
+.question .questHead .Qright{
+	width: 10px;
+	height: 75px;
+	background-color: #ffd33e;
+	border-left: 2px solid #333;
+	border-right: 2px solid #333;
+	float: right;
+}
+
+.question .quesBg{
+	width: 66%;
+	height: 100px;
+	background-color: #ffd33e;
+	border: 3px solid #333;
+	margin: 0px auto 0px ;
+}
+
+.question .quesBg p{
+	margin-top: 35px;
+	text-indent: 10px;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.question .quesCho{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.question .quesCho .Qchoose0{
+	width: 110px;
+    height: 30px;
+    margin: 12px auto 0px;
+    opacity: 0.4;
+}
+
+.question .quesCho .Qchoose0 img{
+	width: 100%;
+	height: 100%;
+}
+
+.question .quesCho .Qchoose1{
+	width: 110px;
+    height: 30px;
+    margin: 12px auto 0px;
+    opacity: 0.4;
+}
+
+.question .quesCho .Qchoose1 img{
+	width: 100%;
+	height: 100%;
+}
+
+.question .quesCho .Qchoose2{
+	width: 110px;
+    height: 30px;
+    margin: 12px auto 0px;
+    opacity: 0.4;
+}
+
+.question .quesCho .Qchoose2 img{
+	width: 100%;
+	height: 100%;
+}
+
+.question .quesCho .Qchoose3{
+	width: 110px;
+    height: 30px;
+    margin: 12px auto 0px;
+    opacity: 0.4;
+}
+
+.question .quesCho .Qchoose3 img{
+	width: 100%;
+	height: 100%;
+}
+
+.question .Qtext{
+	width: 100%;
+	height: 66px;
+	margin-top: 40px;
+}
+
+.question .Qtext .last{
+	width: 100px;
+	height: 66px;
+	float: left;
+	margin-left: 13%;
+	opacity: 0;
+}
+
+.question .Qtext .last img{
+	width: 100%;
+	height: 100%;
+}
+
+.question .Qtext .next{
+	width: 100px;
+	height: 66px;
+	float: right;
+	margin-right: 13%;
+	opacity: 0.4;
+}
+
+.question .Qtext .next img{
+	width: 100%;
+	height: 100%;
+}
+
+.question .quseBar{
+	width: 100%;
+	height: 100px;
+}
+
+.question .quseBar span{
+	font-size: 16px;
+	display: inline-block;
+	font-weight: 900;
+	margin-top: 50px;
+	margin-left: 22%;
+	letter-spacing: 2px;
+}
+
+.question .quseBar span p{
+	color: red;
+	display: inline-block;
+}
+
+.question .quseBar .bar{
+	width: 60%;
+	height: 30px;
+	border: 2px solid #333;
+	margin: 8px auto 100px;
+}
+
+.question .quseBar .bar div{
+	width: 0%;
+	height: 100%;
+	background-color: #ffd33e;
+}
+
+/* .main .question .Result{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.question .Result .resTest{
+	width: 60%;
+	height: 200px;
+	margin: 100 auto;
+	background:url(../img/bg.png) no-repeat cover;
+}
+
+.question .Result .resTest p{
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+} */
+
+
+/* i5 */
+@media screen and (max-width:320px) {
+   .main .cover h3{
+		font-size: 14px;
+		margin-top: 15px;
+	}
+   .cover .coverCon .coverBg{
+		margin: 55px auto 30px;
+    }
+    .cover .coverCon .coverBg .BgImg{
+	    height: 380px;
+    }
+    .cover .coverCon .coverBg p{
+     	font-size: 12px;
+    }
+    .cover .coverText{
+    	margin-top: -20px;
+    }
+    .cover .logo{
+    	margin: 10px auto 10px;
+    }
+    .inletCon .yearCho{
+		width: 70%;
+	}
+	.inletCon .starCho{
+		width: 70%;
+	}
+}
+
+/* i6 */
+@media screen and (min-width: 360px) {
+    .cover .coverCon .coverBg .BgImg{
+	    height: 410px;
+    }
+}
+
+/* iPad */
+@media screen and (min-width: 768px) {
+    .cover .coverCon .coverBg p{
+    	font-size: 23px;
+    	line-height: 28px;
+    }
+    .cover .coverCon .coverBg .BgImg{
+	    height: 440px;
+    }
+}
+
+
